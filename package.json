@@ -6,8 +6,7 @@
   "scripts": {
     "lint": "./node_modules/.bin/eslint src/*.js",
     "prepare": "husky install",
-    "pre-commit": "npm run lint",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -26,6 +25,6 @@
   "homepage": "https://github.com/vitroiano/js-tdd-course#readme",
   "devDependencies": {
     "eslint": "^7.32.0",
-    "husky": "^7.0.1"
+    "husky": "^7.0.0"
   }
 }
